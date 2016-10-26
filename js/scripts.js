@@ -16,7 +16,7 @@ $(document).ready(function() {
     if (character === "a" || character === "e" || character === "i" || character === "o" || character === "u") {
       finalString.push(character);
     } else {
-      finalString.push("");
+      finalString.push("")+ "ay";
     }
   }
 
